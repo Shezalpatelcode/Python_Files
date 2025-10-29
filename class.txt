@@ -1,0 +1,48 @@
+28/10/2025
+----------
+Types of function 
+1. Inbuilt function
+2. User Defined function
+-------------------------
+
+Built in --> 
+1. abs()
+    It ignores the negative part of the value
+    it does not convert it ignores
+2. all()
+    #return value of all() function
+     when the values inside the list are all true then it will print true
+     0 is a false number
+     an empty list is also considered true
+     if(false,1,2)---> in case = false 
+3. dir()
+    #directory..
+    there is given list of numbers ,the number of operation that can be done on it ---that same directory is returned
+4. divmod()
+    Given two numbers and then returns the pair as(qoitient, reminder)
+    print(divmod(9,2))
+5. enumerate()
+    using this you  can start the indexing from anywhere 
+    used in the leader board making 
+6. filter()
+   conditionally apply the filter to get the rquired output
+7. isinstance()
+   
+8. map()
+   map applies a function to all the items in an input_list.
+9. reduce()
+   reduce() function is for computing some computation on a list and returning the result.
+   it does the computation all at once not one by one 
+   https://www.pinterest.com/ideas/studio-ghibli-autumn-wallpaper/936781700855/
+
+
+     User Defined function 
+    ----------------------
+1.  Function argument
+2.   Keyword argument
+3.   Default argument
+4.   arbitary arguments
+5.    when we do not know about the number of argument to be passed so we use arbitary arguments .
+
+Recursion 
+    
