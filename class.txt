@@ -44,5 +44,8 @@ Built in -->
 4.   arbitary arguments
 5.    when we do not know about the number of argument to be passed so we use arbitary arguments .
 
-Recursion 
-    
+Recursion
+(to do for solving a question) 
+   # Base case
+   # Formula
+

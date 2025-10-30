@@ -9,7 +9,7 @@ def sum(n):
     # factorial
         return (n + sum(n - 1)) 
 
-# Driver Code 
+# Driver Code =
 num = 5; 
 print("number : ",num)
 print("Factorial : ",sum(num))
