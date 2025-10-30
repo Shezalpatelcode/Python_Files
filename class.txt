@@ -48,4 +48,5 @@ Recursion
 (to do for solving a question) 
    # Base case
    # Formula
-
+   
+ex. n x fact(n-1) work till base is 1
