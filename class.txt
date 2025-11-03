@@ -126,3 +126,28 @@ Scope and Life Time of Variables
 -> Variables are destroyed once we return from the function.
 
 Example:
+
+
+-------------------------------------------------
+Renaming the module at the time of import(module aliasing)
+  test.py
+import simplemath as m
+   print(m.x)
+   m.add(10,20)
+   m.product(10,20)
+
+   specifically only add and print value of x so do-->
+   from import
+   from simplemath import x,add
+   print(x)
+   add(10,20)
+
+   product(10,20) ---name error:name 'product not defined'
+
+   various possibilities of import
+   import modulename
+   import module1,mod2,mod3
+   from module import member
+   from module import member1,member2,member3
+   from module import member1 as x
+   from module import *
