@@ -151,3 +151,7 @@ import simplemath as m
    from module import member1,member2,member3
    from module import member1 as x
    from module import *
+
+   DSA in Python
+   starting from the list,tuple,set,string,dictonaries-->
+   then the file handling
