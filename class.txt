@@ -562,6 +562,8 @@ title
 
 importing module from a package
 We can import modules from packages using the dot (.) operator.
+ The way to import the package in your Python program is :
+ # import Game.Image.open 
 
 -----------------------------------------------------------------------------------------------------------------------------------
 this is new today 
