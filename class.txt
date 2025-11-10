@@ -566,5 +566,5 @@ We can import modules from packages using the dot (.) operator.
  # import Game.Image.open 
 
 -----------------------------------------------------------------------------------------------------------------------------------
-this is new today 
-this is again a new day 
+  Given a list with numbers [2,3,2,4,3,5,6] remove the duplicates but the sequence remains the same----->
+  
