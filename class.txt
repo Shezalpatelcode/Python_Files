@@ -567,4 +567,5 @@ We can import modules from packages using the dot (.) operator.
 
 -----------------------------------------------------------------------------------------------------------------------------------
   Given a list with numbers [2,3,2,4,3,5,6] remove the duplicates but the sequence remains the same----->
-  
+  Count how many items contain the letter 'a'
+  ram shyam , neha ,rohit =names
