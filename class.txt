@@ -568,4 +568,92 @@ We can import modules from packages using the dot (.) operator.
 -----------------------------------------------------------------------------------------------------------------------------------
   Given a list with numbers [2,3,2,4,3,5,6] remove the duplicates but the sequence remains the same----->
   Count how many items contain the letter 'a'
-  ram shyam , neha ,rohit =names
+  ram shyam , neha ,rohit = names
+
+
+  -----------------------------------------------------------------
+  11/11/2025
+ SET
+ Set is mutable but cannot be duplicated 
+ We can make set from a list
+ Intialize a set using a set() method
+ we can add single elemnt using add() method
+ add many element using the update() method
+ set objects does not support the indexing 
+
+ a particular element can be removed using the discard() method
+ if we try to remove any thing that is not there in the set ==>it will give the error then 
+ # if we remove the item using the pop() method 
+ it will remove the random number (basically the first element of set)
+ if we use the clear method it will remove each and every element of the set and thus it will become empty.
+ Union of 2 sets is done using (|) operator
+
+set1=(1,2,3,4,5,6)
+set2=(6,7,8,9,10)
+# print(set1 | set2) 
+# print(set1.union(set2))
+
+#for intersection 
+# print(set1 & set2)
+# print(set1.intersection(set2))
+
+Symmetric difference : set of elements in both set1 and set2 except those that are common in both
+# use ^ operator
+#-------------------------------------------------------------------------------------------------------------
+#operations Done by /on Set#Wrting the set 
+s={1,2,3,1,2,4}
+#printing the set
+print(s)
+#----------------------------------------
+#printing the type of set
+print(type(s))
+#----------------------------------------
+#Adding the single element
+s.add(5)
+print (s)
+#----------------------------------------
+# using update() method we can add many elemnets
+s.update([6,7,8,3])
+print(s)
+#----------------------------------------
+#adding the list and set
+s.update([6,7,8,3],{9,10})
+print(s)
+#----------------------------------------
+s.discard(4)
+print(s)
+#----------------------------------------
+s.pop()
+print(s)
+#----------------------------------------
+# s.clear()
+# print(s)
+set1 = {1, 2, 3, 4, 5, 6}
+set2 = {6, 7, 8, 9, 10}
+
+print(set1 | set2)     
+# union operator
+
+print(set1.union(set2))
+
+#for intersection 
+print(set1 & set2)
+print(set1.intersection(set2))
+
+# for difference
+print(set1 - set2)
+print(set1.difference(set2))
+#--------------------------------------
+#Symmetric difference
+print(set1^set2)
+print(set1.symmetric_difference(set2))
+
+#Subset
+x={"e","a","b","c","d"}
+y={"c","d"}
+print("set  x is subset of y ?",x.issubset(y))
+print("set  y is subset of x ?",y.issubset(x))
+----------------------------------------------
+ FROZEN sets-->
+ the set become immutable and can not be changed and if tried to chenge then it will throw the error
+ 
