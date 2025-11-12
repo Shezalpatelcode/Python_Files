@@ -13,3 +13,8 @@
 #         s2.add(item)
 
 # print("Common strings:", s2)
+words=["fan","mat","pan","hen","can"]
+common =set(words[0])
+for w in words[1:]:
+    common&=set(w)
+    print(common)

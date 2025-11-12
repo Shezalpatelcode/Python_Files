@@ -655,5 +655,6 @@ print("set  x is subset of y ?",x.issubset(y))
 print("set  y is subset of x ?",y.issubset(x))
 ----------------------------------------------
  FROZEN sets-->
- the set become immutable and can not be changed and if tried to chenge then it will throw the error
+ the set become immutable and can not be changed and if tried to change then it will throw the error4
+ 
  

@@ -54,6 +54,12 @@ print("set  y is subset of x ?",y.issubset(x))
 
 set3 = frozenset([1, 2, 3, 4, 5])
 set4 = frozenset([6, 7, 8, 9, 10])
-# set3.add(5)
+# # set3.add(5)
+
+# words=
+# common =set(words[0])
+# for w in words[1:]:
+#     common&=set(w)
 
 
+    
