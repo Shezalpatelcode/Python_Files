@@ -656,5 +656,22 @@ print("set  y is subset of x ?",y.issubset(x))
 ----------------------------------------------
  FROZEN sets-->
  the set become immutable and can not be changed and if tried to change then it will throw the error4
+ This is the frozen sets in Python 
  
- 
+ Syntax : frozenset(iterable_object_name)
+Parameter : iterable_object_name
+
+This function accepts iterable object as input parameter.
+Return :  Returns an equivalent frozenset object.
+ Example:
+fruits = frozenset(["apple", "banana", "orange"])
+print(fruits) 
+fruits.add("cherry")
+print(fruits)
+--------------------
+Demo Exampple
+frozenset({'orange', 'apple', 'banana'})
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 3, in <module>
+AttributeError: 'frozenset' object has no attribute 'add'
