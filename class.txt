@@ -678,7 +678,7 @@ AttributeError: 'frozenset' object has no attribute 'add'
 new code...
 new code.....
 now coming to the Problem of the Codeforces
-----------------------------------------------------------------------------------------
+----------------------------------------TUPLE------------------------------------------------
 Tuple 
 tupla Creation
 t=()
@@ -735,3 +735,25 @@ t=(2,5,1,6,9)
 print(max(t))
 print(min(t))
 print(sum(t))
+------------------------------DICTIONARY-----------------------------
+Dict Creation
+#To create a empty dictionary 
+my_dict={}
+#To create dictionary with integer keys
+my_dict={1:'abc',2:'xyz'}
+
+#dictionary with mixed keys
+my_dict={'name':'satish',1:['abc','xyz']}
+print(my_dict)
+
+#creating empty dictionary using dict()
+my_dict= dict()
+
+#create a dict with list of tuple
+my_dict=dict([(1,'abc'),(2,'xyz')])
+print(my_dict)
+
+#Dict Accessing
+my_dict={'name':'satish','age':27,'address':'Kasukabe'}
+print(my_dict['name'])
+print(my_dict.get('address'))
